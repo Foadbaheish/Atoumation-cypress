@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-describe('Actions', () => {
+describe('Search & Select-product', () => {
     it('Search', () => {
       cy.visit("https://magento.softwaretestingboard.com/")
       cy.get("#search").clear().type("shirt"+"{enter}",{delay:400});
