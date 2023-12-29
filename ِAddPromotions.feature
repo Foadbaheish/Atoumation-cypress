@@ -14,7 +14,7 @@ Feature: Add Promotion functionality
      And The Admin Check if the new discount is added successfully
 
 
-@focus
+
     Scenario:TC-2 verify if The Admin can Add new affiliates under promotion area
      Given The Admin navigated to nopcommerce website
      And The Admin click on menu 
